@@ -1,0 +1,126 @@
+The main working flow code is a basic version of your event webpage. It keeps the core parts that make the page work like the header, navigation menu, main sections, and the register button but removes extra styling and fancy decorations.
+code:-------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Event 2025</title>
+    <style>
+        /* Simple styling just to make things readable */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+
+        header {
+            background: green;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: black;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: lightgreen;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .register-btn {
+            padding: 15px 40px;
+            background: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 25px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <h1>ABC Innovation Summit 2025</h1>
+    <p>Empowering the Next Generation of Blockchain Developers</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#register">Register</a>
+</nav>
+
+<!-- About Section -->
+<section id="about">
+    <h2>Why Attend?</h2>
+    <ul>
+        <li>Career opportunities and networking</li>
+        <li>Hands-on learning with Web3 projects</li>
+        <li>Connect with industry experts</li>
+        <li>Get a participation certificate</li>
+    </ul>
+</section>
+
+<!-- Schedule Section -->
+<section id="schedule">
+    <h2>Event Schedule</h2>
+    <ul>
+        <li>10:00 AM – Opening & Introduction</li>
+        <li>11:00 AM – Keynote Speech</li>
+        <li>01:00 PM – Lunch & Networking</li>
+        <li>03:00 PM – Panel Discussion</li>
+        <li>04:30 PM – Closing Remarks</li>
+    </ul>
+</section>
+
+<!-- Speakers / Social Section -->
+<section id="speakers">
+    <h2>Stay Connected</h2>
+    <ul>
+        <li><a href="https://www.instagram.com/abc.cit" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com/company/algorand-blockchain-club-cit/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://youtube.com/shorts/Skymnr8A-aI" target="_blank">YouTube</a></li>
+    </ul>
+</section>
+
+<!-- Register Section -->
+<section id="register">
+    <h2>Ready to Build the Future?</h2>
+    <button class="register-btn" 
+        onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdLav_uAlBvtstKC6px8uu908Ufv1xWU3HntSZf_KusJFsDQg/viewform?usp=dialog';">
+        Register Now
+    </button>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2025 Algorand Blockchain Club
+</footer>
+
+</body>
+</html>
