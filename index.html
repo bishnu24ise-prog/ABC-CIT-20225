@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Event 2025</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: black; /* Overall dark theme */
+            color: white; /* Default text color white */
+        }
+
+        /* 1. GREEN HEADER */
+        header { 
+            background: #2e7d32; /* Rich Green */
+            color: white; 
+            padding: 40px 20px; 
+            text-align: center; 
+            border-bottom: 5px solid white;
+        }
+
+        header h1 { margin: 0 0 10px 0; font-size: 2.5em; }
+        header p { margin: 0; font-size: 1.2em; }
+
+        /* 2. BLACK NAVIGATION */
+        nav { 
+            background: black; 
+            padding: 15px; 
+            text-align: center; 
+            border-bottom: 1px solid #333;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: #4CAF50; /* Green links */
+            margin: 0 20px; 
+            text-decoration: none; 
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover { color: white; text-decoration: underline; }
+
+        /* SECTIONS - BLACK BACKGROUND */
+        section { 
+            padding: 60px 20px; 
+            border-bottom: 1px solid #222;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h2 { 
+            color: #4CAF50; /* Green Headings */
+            font-size: 2em; 
+            border-bottom: 2px solid #4CAF50; 
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        /* 3. SCHEDULE DIALOG BOX */
+        .schedule-dialog {
+            background-color: #1a1a1a;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(76, 175, 80, 0.3);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .schedule-dialog ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .schedule-dialog li {
+            padding: 15px 0;
+            border-bottom: 1px solid #333;
+            font-size: 1.1em;
+        }
+        
+        .schedule-dialog li strong { color: #4CAF50; }
+
+        /* BENEFITS LIST */
+        .benefits-list li { margin-bottom: 15px; line-height: 1.6; }
+
+        /* SOCIAL LINKS */
+        .social-links a {
+            display: block;
+            margin: 10px 0;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+            background: #222;
+            padding: 10px;
+            border-radius: 5px;
+            width: fit-content;
+        }
+        .social-links a:hover { background: #4CAF50; }
+
+        /* 4. REGISTER BOX - ATTRACTIVE */
+        .register-box {
+            background: linear-gradient(145deg, #111, #222);
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            border: 3px solid #4CAF50;
+            box-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+        }
+
+        .register-box p { font-size: 1.3em; margin-bottom: 25px; }
+
+        .register-btn {
+            padding: 15px 40px; 
+            background: #4CAF50; 
+            color: white;
+            border: none; 
+            cursor: pointer; 
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 30px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .register-btn:hover { 
+            background: #45a049; 
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #4CAF50;
+        }
+
+        footer {
+            background: #111; 
+            color: #888;
+            text-align: center; 
+            padding: 20px;
+            margin-top: 40px; 
+            font-size: 14px;
+        }
+        footer a { color: #4CAF50; }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ABC Presents: Innovation Summit 2025</h1>
+    <p>Empowering the Next Generation of Blockchain Developers</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#speakers">Speakers</a>
+    <a href="#register">Register</a>
+</nav>
+
+<section id="about">
+    <h2>Why Attend? Unlock the Power of Web3</h2>
+    <p>The ABC Innovation Summit 2025 isn't just an event; it's your gateway to the future of the internet. By attending, students will gain:</p>
+    <ul class="benefits-list">
+        <li><strong>🚀 Career Acceleration:</strong> Connect directly with industry leaders and blockchain startups hiring for internships and full-time roles.</li>
+        <li><strong>💡 Hands-on Learning:</strong> Understand the mechanics of Smart Contracts, DeFi, and NFTs through practical insights.</li>
+        <li><strong>🌐 Networking:</strong> Join a community of innovators, developers, and creators who are building the decentralized future.</li>
+        <li><strong>📜 Certification:</strong> Participants will receive a verified digital certificate of participation on the Algorand Blockchain.</li>
+    </ul>
+</section>
+
+<section id="schedule">
+    <h2>Event Schedule</h2>
+    <div class="schedule-dialog">
+        <h3 style="text-align: center; margin-top: 0; color: white;">📅 Day's Agenda</h3>
+        <ul>
+            <li><strong>10:00 AM</strong> – Opening Ceremony & Introduction to Web3</li>
+            <li><strong>11:00 AM</strong> – Keynote: "Scaling Blockchains for the Real World"</li>
+            <li><strong>01:00 PM</strong> – Networking Lunch & Team Formation</li>
+            <li><strong>03:00 PM</strong> – Panel Discussion: "The Future of Digital Assets"</li>
+            <li><strong>04:30 PM</strong> – Closing Remarks & Networking</li>
+        </ul>
+    </div>
+</section>
+
+<section id="speakers">
+    <h2>Stay Connected</h2>
+    <p>Follow us for updates, speaker announcements, and exclusive content:</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/abc.cit?igsh=MWdxYjJwdzQ1cW1jbA==" target="_blank">
+            📸 Follow us on Instagram (@abc.cit)
+        </a>
+        <a href="https://www.linkedin.com/company/algorand-blockchain-club-cit/" target="_blank">
+            💼 Connect on LinkedIn (Algorand Blockchain Club CIT)
+        </a>
+        <a href="https://youtube.com/shorts/Skymnr8A-aI?si=GtKUJ50YBtov2yNt" target="_blank">
+            🎥 Watch Highlights: Induction 2025 (YouTube)
+        </a>
+    </div>
+</section>
+
+<section id="register">
+    <h2>Ready to Build the Future?</h2>
+    
+    <div class="register-box">
+        <p>Don't just watch the revolution happen—be a part of it! <br> Limited seats available for aspiring changemakers.</p>
+        <button class="register-btn" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSdLav_uAlBvtstKC6px8uu908Ufv1xWU3HntSZf_KusJFsDQg/viewform?usp=dialog';">
+            🚀 Secure My Free Spot Now
+        </button>
+    </div>
+</section>
+
+<footer>
+    © 2025 Algorand Blockchain Club | <a href="#" target="_blank">Visit ABC Official Website</a>
+</footer>
+
+</body>
